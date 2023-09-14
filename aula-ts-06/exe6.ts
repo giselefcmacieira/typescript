@@ -1,4 +1,4 @@
-const game: {
+const gam: {
     id: number;
     platform: {
         id: number;
@@ -18,7 +18,7 @@ const game: {
     launch: "2013-06-14" // pode ser um Date. É opcional (para jogos ainda não lançados).
 }
 
-const games: {
+const gams: {
     id: number;
     platform: {
         id: number;
@@ -27,9 +27,9 @@ const games: {
     title: string;
     publisher: string;
     launch: string | Date;
-}[] = [game];
+}[] = [gam];
 
-function play(game:  {
+function pla(game:  {
     id: number;
     platform: {
         id: number;
